@@ -1,0 +1,89 @@
+.text-pri{color: rgb(43, 192, 226);}
+.text-sec{color: #37ff00ee;}
+
+/* googleFonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+:root,
+[data-bs-theme=light] {
+    --bs-dark-rgb:166,166,210;
+    --bs-emphasis-color: #4400bb;
+}
+:root {
+    --color-dark-blue: #000088;
+    --font-weight-bold: bolder;
+}
+/* 雲端字體套用在body標籤 */
+body {
+    font-family: "微軟正黑體", "Noto Sans TC", sans-serif;
+  }
+  
+
+/* 選取器是標籤,影響整題 */
+h2 {font-size: 2rem;font-weight: 900;color: rgb(229, 39, 172);}
+
+/* 選取器是類別,影響個別,需要手動套用 */
+.h2-custom-pink {font-size: 3rem;font-weight: 900;color: rgb(255, 0, 195);}
+
+/* 拿掉文字超連結下底線 */
+footer a {
+    text-decoration: none;
+}
+
+
+
+
+/* 標題Icons */
+.iconsTitle{
+    font-size: 2.2rem !important;
+    color: rgb( 39, 102, 229);
+    vertical-align: bottom;
+}
+
+/* 編號清單-類別選取器 */
+.list-no {list-style-type: decimal-leading-zero;}
+
+/* 項目清單-類別選取器 */
+.list-sybol {list-style-type: circle;}
+
+/* 住宿資訊,取消邊框 */
+.card-no-border {
+    border: none;
+}
+/* 選取氣勢標籤,影響整體 */
+h5 {font-weight: 900;}
+
+/* 無障礙,文字對比 */
+footer {background-color: #FF9988;color: #000044;}
+.modal{
+    --bs-modal-width:800px;
+}
+
+/* Accordion 微型網站作法
+.accor-mainTitle {font-size: 1.8rem;}
+.accor-title {font-size: 1.4rem;font-weight: 900;}
+.accor-subtitle {font-size: 1.2rem;color:black;}
+.accor-title-h3 {font-size: 1rem;font-weight: 900;font-style: italic}*/
+
+/* Accordion 中大型網站作法*/
+.accor-mainTitle {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-dark-blue);
+}
+.accor-title {
+    font-size: 1.4rem;font-weight: 900;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-dark-blue);
+}
+.accor-subtitle {
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-bold);
+    color: black
+}
+.accor-title-h3 {
+    font-size: 1rem;
+    font-weight: var(--font-weight-bold);
+    font-weight: 900;
+    font-style: italic
+}

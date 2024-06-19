@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+    color: #555;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.text-lightblue {
+    color: #4a90e2;
+}
+
+.accessible-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: start;
+    gap: 20px; /* 設定圖文之間的間距 */
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
